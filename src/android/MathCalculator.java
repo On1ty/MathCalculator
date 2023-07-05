@@ -24,7 +24,7 @@ public class MathCalculator extends CordovaPlugin {
             this.add(args, callbackContext);
             return true;
         } else if (action.equals("subtract")) {
-            this.subtract(args, callbackContext)
+            this.subtract(args, callbackContext);
             return true;
         }
 
